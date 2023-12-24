@@ -1,7 +1,5 @@
 //ROGRAMMED BY SURAJ
 
-
-
 int Speed = 250;
 char t; 
  
@@ -20,23 +18,15 @@ pinMode(8,OUTPUT);
 pinMode(13,OUTPUT); // LIGHTS  
 
                /* FOR FUTURE */
-    
-        /* NOTHING IS CONNECTED NOW  */
-       /*TO PIN NUMBER 9 10 11 AND 12*/
 
     pinMode(9,OUTPUT);     
     pinMode(10,OUTPUT);
     pinMode(11,OUTPUT);
     pinMode(12,OUTPUT);
-    
-    
-
-     
+        
 Serial.begin(9600);    // baud rate
  
 }
-
-
  
 void loop ()
  
